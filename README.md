@@ -94,5 +94,30 @@ This Python script extracts and summarizes useful forensic information from a Go
 
     Run the script from the command line:
 
-    python chrome_history_parser.py /path/to/History
+python chrome_history_parser.py /path/to/History
 
+Sample Output
+
+Source File: History
+Total Downloads: 3
+File Name: report.pdf
+File Size: 1048576
+Unique Search Terms: 5
+Most Recent Search: python sqlite tutorial
+Most Recent Search Date/Time: 2025-May-15 14:20:36
+
+🧠 How It Works
+
+    Downloads Table: Finds downloads with non-zero byte size and identifies the largest file by download duration.
+
+    Search Terms: Extracts entries from keyword_search_terms and correlates with urls table to find the most recent search.
+
+    Timestamps: Chrome stores times as WebKit timestamps; the script converts them to human-readable format.
+
+⚠️ Notes
+
+    The Chrome History file must not be in use (close Chrome before running).
+
+    Only compatible with unencrypted History files (e.g., not from Incognito sessions or user profiles with encrypted containers).
+
+    For forensic or analysis use—modifying browser files directly is not recommended.
