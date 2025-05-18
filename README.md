@@ -55,7 +55,7 @@ exif_parser.py  # Main script to extract and display EXIF metadata
 🧪 Example Image for Testing
 
 To test the script effectively, use an image file taken with GPS-enabled devices like smartphones or DSLR cameras with GPS support.
-**-------------------------------------------------------------------------------------------------------------------------------------------**
+**----------------------------------------------------------------------------------------------------------------------------------------------------**
 Chrome History Analyzer (historyParse.py)
 
 This Python script extracts and summarizes useful forensic information from a Google Chrome History SQLite database, including file downloads and search terms.
