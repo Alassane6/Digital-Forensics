@@ -17,6 +17,8 @@ This Python script extracts and displays key EXIF metadata from an image file, i
 
     Python 3.6+
 
+    pip
+
     exifread
 
 You can install the required library using pip:
