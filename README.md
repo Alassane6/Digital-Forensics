@@ -61,7 +61,9 @@ To test the script effectively, use an image file taken with GPS-enabled devices
 
 
 
-Chrome History Analyzer
+
+
+Chrome History Analyzer (historyParse.py)
 
 This Python script extracts and summarizes useful forensic information from a Google Chrome History SQLite database, including file downloads and search terms.
 🔍 Features
@@ -94,7 +96,7 @@ This Python script extracts and summarizes useful forensic information from a Go
 
     Run the script from the command line:
 
-python chrome_history_parser.py /path/to/History
+python historyParse.py /path/to/History
 
 Sample Output
 
