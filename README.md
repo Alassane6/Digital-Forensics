@@ -55,3 +55,44 @@ exif_parser.py  # Main script to extract and display EXIF metadata
 🧪 Example Image for Testing
 
 To test the script effectively, use an image file taken with GPS-enabled devices like smartphones or DSLR cameras with GPS support.
+
+
+
+
+
+
+Chrome History Analyzer
+
+This Python script extracts and summarizes useful forensic information from a Google Chrome History SQLite database, including file downloads and search terms.
+🔍 Features
+
+    Analyzes Chrome's History SQLite file
+
+    Extracts and reports:
+
+        Number of downloads and largest file
+
+        Number of unique search terms
+
+        Most recent search term with timestamp
+
+🛠️ Requirements
+
+    Python 3.6+
+
+    Standard library only (no external packages needed)
+
+📦 How to Use
+
+    Locate Chrome's History database file:
+
+        On Windows: C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\History
+
+        On macOS: ~/Library/Application Support/Google/Chrome/Default/History
+
+        On Linux: ~/.config/google-chrome/Default/History
+
+    Run the script from the command line:
+
+    python chrome_history_parser.py /path/to/History
+
