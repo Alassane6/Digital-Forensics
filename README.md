@@ -1,4 +1,4 @@
-EXIF Metadata Parser
+EXIF Metadata Parser (exif_parser.py)
 
 This Python script extracts and displays key EXIF metadata from an image file, including camera make and model, date/time the image was taken, and GPS coordinates (if available).
 📸 Features
@@ -29,7 +29,7 @@ pip install exifread
 
 Run the script from the command line and provide an image file path as an argument:
 
-python exif_parser.py path/to/image.jpg
+python exif_parser.py path/to/image.jpg (file1 or file2)
 
 Sample Output
 
